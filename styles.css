@@ -1,0 +1,147 @@
+	div.top{
+		background-color: #0CEAF8;
+		height: 130px;
+		text-align: center;
+		vertical-align: center;
+	}
+
+	body{
+		background-color: #ADADAD;
+	}
+
+	h1{
+		color: black;
+		text-shadow: -4px 4px 6px white;
+		font-size: 400%
+	}
+
+	td{
+		vertical-align: center;
+	}
+	div.body{
+		-webkit-column-count: 3;
+		column-count: 3;
+		-webkit-column-gap: 30px;
+		column-gap: 30px;
+		-webkit-column-rule: 1px outset black;
+		column-rule: 1px outset black;
+	}
+
+	nav{
+			font-weight: bold;
+			background-color: #05FBF2;
+			text-align: center;
+			width: 10em;
+			font-size: 150%;
+			padding: 6px;
+			border-radius: 30px;
+
+		}
+
+	nav ul{
+			display: none;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+
+	}
+
+	nav:hover{display: block;
+			background-color: #94FB94;}
+
+	a{
+		text-decoration: none;
+		color: white;
+
+	}
+	a:hover{
+		color: black;
+		text-decoration: underline overline;
+
+
+	}
+
+	img.front{
+			border-radius: 50%;
+	}
+
+	input{
+		padding: 6px;
+		font-size: 14px;
+		border-radius: 4px;
+	}
+	
+	label {
+		width: 200px;
+		font-size: 14px;	
+	}
+
+	select{
+		padding: 6px;
+		font-size: 14px;
+		border-radius: 4px;
+
+	}
+	
+	/*
+	Le dejo El lightblue o lo dejo transparente Amorrrrrrrrrrrrrrrrrrrrrr??
+	*/
+	table.form {
+		border: 4px solid white;
+		/*background-color: lightblue;*/
+	}
+
+	/*
+	-------------------------------------------------------------------------
+	*/
+
+	p.form{
+		font-size: 20px;
+		font-family: cursive;
+	}
+
+	input.send{
+		background-color: #72DFDB;
+		color: white;
+		font-family: cursive;
+		font-size: 20px;
+		border-radius: 4px;
+		width: 150px;
+	}
+
+	input.send:hover{
+		background-color: lightgreen;
+		text-decoration: underline overline;
+		color: black;
+	}
+
+	img.room{
+		border-radius: 5%;
+	}
+
+	table.room {
+		border: 2px solid white;
+		
+	}
+
+	p.white{
+		font-size: 20px;
+		font-family: cursive;
+		color: white;
+	}
+
+	img.attr{
+		border-radius: 5%;
+		width: 500px;
+		height: 400px;
+	}
+
+	p.attr{
+		font-size: 14px;
+		font-family: cursive;
+	}
+
+
+	td.textalign {
+		vertical-align: top;
+	}
